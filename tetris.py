@@ -8,7 +8,7 @@ while end != 'N':
 
     bag = len(pieces)
 
-    while bag > 1:
+    while bag > 0:
         selected = (random.choice(pieces))
         print(selected)
         pieces.remove(selected)
